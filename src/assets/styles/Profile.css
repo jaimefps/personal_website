@@ -1,0 +1,68 @@
+.profile-container {
+  background: -webkit-linear-gradient(left top, grey, black);
+  background: -o-linear-gradient(bottom right, grey, black);
+  background: -moz-linear-gradient(bottom right, grey, black);
+  background: linear-gradient(to bottom right, grey, black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-info {
+  margin: 20px;
+  padding: 15px;
+  background: -webkit-linear-gradient(left top, white, blue);
+  background: -o-linear-gradient(bottom right, white, blue);
+  background: -moz-linear-gradient(bottom right, white, blue);
+  background: linear-gradient(to bottom right, white, blue);
+  box-shadow: 3px 3px 5px grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.me {
+  height: 150px;
+  border-radius: 100%;
+  margin: 10px;
+}
+.name {
+  font-family: Roboto;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.desc {
+  color: white;
+  font-family: Roboto;
+  font-size: 15px;
+  letter-spacing: 2px; 
+}
+.bttns {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.bttns > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  background: -webkit-linear-gradient(darkblue, blue);
+  background: -o-linear-gradient(darkblue, blue);
+  background: -moz-linear-gradient(darkblue, blue); 
+  background: linear-gradient(darkblue, blue);
+  box-shadow: 2px 2px 5px grey;
+}
+.bttns > div:hover {
+  background: -webkit-linear-gradient(blue, aqua);
+  background: -o-linear-gradient(blue, aqua);
+  background: -moz-linear-gradient(blue, aqua); 
+  background: linear-gradient(blue, aqua);
+  cursor: pointer;
+}

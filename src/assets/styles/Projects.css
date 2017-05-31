@@ -1,0 +1,38 @@
+.projects-container {
+  background: -webkit-linear-gradient(left top, grey, black);
+  background: -o-linear-gradient(bottom right, grey, black);
+  background: -moz-linear-gradient(bottom right, grey, black);
+  background: linear-gradient(to bottom right, grey, black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  color: white;
+  margin: 20px;
+  font-family: Roboto;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.app-row {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px grey;
+}
+.app-img {
+  height: 150px;
+}
+.app-desc {
+  color: white;
+  margin: 4px;
+  font-family: Roboto;
+  font-size: 20px;
+}
