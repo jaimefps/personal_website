@@ -10,11 +10,11 @@
 .profile-info {
   margin: 20px;
   padding: 15px;
-  background: -webkit-linear-gradient(left top, white, blue);
-  background: -o-linear-gradient(bottom right, white, blue);
-  background: -moz-linear-gradient(bottom right, white, blue);
-  background: linear-gradient(to bottom right, white, blue);
-  box-shadow: 3px 3px 5px grey;
+  background: -webkit-linear-gradient(left top, white, grey);
+  background: -o-linear-gradient(bottom right, white, grey);
+  background: -moz-linear-gradient(bottom right, white, grey);
+  background: linear-gradient(to bottom right, white, grey);
+  box-shadow: 3px 3px 5px white;
   display: flex;
   flex-direction: column;
   align-items: center;

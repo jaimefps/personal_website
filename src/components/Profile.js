@@ -18,7 +18,7 @@ class Profile extends Component {
         <div className='bttns'>
           <div> GitHub </div>
           <div> LinkedIn </div>
-          <div> Resume </div>
+          <div> Online Card </div>
         </div>
 
       </div>

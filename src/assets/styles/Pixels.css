@@ -3,10 +3,10 @@
 }
 .pixels-container > div {
   padding: 15px;
-  background: -webkit-linear-gradient(left top, white, blue);
-  background: -o-linear-gradient(bottom right, white, blue);
-  background: -moz-linear-gradient(bottom right, white, blue);
-  background: linear-gradient(to bottom right, white, blue);
+  background: -webkit-linear-gradient(left top, white, grey);
+  background: -o-linear-gradient(bottom right, white, grey);
+  background: -moz-linear-gradient(bottom right, white, grey);
+  background: linear-gradient(to bottom right, white, grey);
   display: flex;
   flex: 2;
   flex-direction: column;
@@ -17,7 +17,6 @@
   width: 150px;
 }
 .description {
-  color: white;
   font-family: Roboto;
   font-size: 20px;
   letter-spacing: 2px;

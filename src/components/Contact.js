@@ -6,7 +6,8 @@ class Contact extends Component {
   render() {
     return (
       <div className="contact-container">
-        contacts
+        <div className='credits'>Jaime Pericás Sáez &copy; 2017  </div>
+
       </div>
     );
   }
