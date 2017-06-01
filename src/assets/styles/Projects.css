@@ -26,8 +26,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*box-shadow: 5px 5px 5px grey;*/
   background-color: black;
+}
+.app-container:hover {
+  box-shadow: 2px 2px 8px white;
 }
 .app-img {
   height: 150px;
