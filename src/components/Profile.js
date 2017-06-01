@@ -19,7 +19,6 @@ class Profile extends Component {
         <div className='bttns'>
           <div><a target='_blank' href='https://github.com/jaimefps'> GitHub </a></div>
           <div><a target='_blank' href='https://www.linkedin.com/in/jaime-pericas-saez/'>  LinkedIn </a></div>
-          <div><a target='_blank' href='http://jaimefps.com/'> Online Card </a></div>
           <div><a target='_blank' href='https://docs.google.com/document/d/1bFQezsn2kNOR8GXDXdSPuME2LK4F7yWD0nseItrXals/edit?usp=sharing'> Resume </a></div>
         </div>
       </div>
