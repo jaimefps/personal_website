@@ -48,21 +48,20 @@
   letter-spacing: 1px;
 }
 .contact_me {
-  border: 1px solid white;
   color: white;
   margin-top: 10px;
   padding: 2px 5px;
   font-size: 15px;
-  background-color: black;
+  background-color: grey;
   letter-spacing: 1px;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
 }
 .contact_me:hover {
-  border: 1px solid black;
-  color: black;
-  margin-top: 10px;
-  padding: 2px 5px;
-  font-size: 15px;
-  background-color: white;
+  color: white;
+  background-color: black;
 }
 .bttns {
   width: 30%;
