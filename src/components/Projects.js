@@ -24,9 +24,17 @@ class Projects extends Component {
             <img className="app-img" src={github}/>
             <div className='app-desc'> City Rampage </div>
           </div>
+          <div className='app-container'>
+            <img className="app-img" src={github}/>
+            <div className='app-desc'></div>
+          </div>
         </div>
 
         <div className='app-row'>
+          <div className='app-container'>
+            <img className="app-img" src={github}/>
+            <div className='app-desc'></div>
+          </div>
           <div className='app-container'>
             <img className="app-img" src={github}/>
             <div className='app-desc'></div>

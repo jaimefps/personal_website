@@ -11,14 +11,12 @@ class Pixels extends Component {
     return (
       <div className="pixels-container">
 
-        <div className="heart-div">
           <div className='description'> Programmer by day. Artist & Philosopher by night. </div>
-          <div className="heart-imgs-container">
+          <div className="imgs-container">
             <img className='pixel-img' src={hacker} />
             <img className='pixel-img' src={artist} />
             <img className='pixel-img' src={philosopher} />
           </div>
-        </div>
 
       </div>
     );

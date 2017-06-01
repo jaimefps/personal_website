@@ -1,3 +1,17 @@
 .contact-container {
-  border: 1px solid black;
+  background: -webkit-linear-gradient(left top, white, grey);
+  background: -o-linear-gradient(bottom right, white, grey);
+  background: -moz-linear-gradient(bottom right, white, grey);
+  background: linear-gradient(to bottom right, white, grey);
+  display: flex;
+  justify-content: space-around;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.contact-img {
+  height: 20px;
+  margin: 5px;
 }

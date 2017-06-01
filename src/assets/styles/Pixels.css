@@ -1,23 +1,25 @@
 .pixels-container {
   display: flex;
-}
-.pixels-container > div {
-  padding: 15px;
+  padding-top: 20px;
   background: -webkit-linear-gradient(left top, white, grey);
   background: -o-linear-gradient(bottom right, white, grey);
   background: -moz-linear-gradient(bottom right, white, grey);
   background: linear-gradient(to bottom right, white, grey);
   display: flex;
-  flex: 2;
   flex-direction: column;
   align-items: center;
-}
-.pixel-img {
-  height: 150px;
-  width: 150px;
 }
 .description {
   font-family: Roboto;
   font-size: 20px;
   letter-spacing: 2px;
+  border: 2px solid black;
+  padding: 5px 30px;
+}
+.imgs-container {
+  margin-top: 10px;
+}
+.pixel-img {
+  height: 150px;
+  width: 150px;
 }
