@@ -5,6 +5,7 @@
   background: linear-gradient(to bottom right, white, grey);
   display: flex;
   justify-content: space-around;
+  padding: 10px;
 }
 .contact {
   display: flex;

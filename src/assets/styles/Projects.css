@@ -6,10 +6,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 40px;
 }
 .title {
   color: white;
   margin: 20px;
+  margin-bottom: 50px;
   font-family: Roboto;
   font-size: 20px;
   letter-spacing: 2px;
@@ -24,9 +26,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid black;
-  box-shadow: 5px 5px 5px grey;
-  background-color: lightgreen;
+  /*box-shadow: 5px 5px 5px grey;*/
+  background-color: black;
 }
 .app-img {
   height: 150px;
@@ -35,5 +36,6 @@
   color: white;
   margin: 4px;
   font-family: Roboto;
-  font-size: 20px;
+  font-size: 15px;
+  padding: 5px;
 }

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import artist from '../assets/images/artist.png';
-import hacker from '../assets/images/hacker.png';
-import philosopher from '../assets/images/philosopher.png';
+import artist from '../assets/images/pixels/artist.png';
+import hacker from '../assets/images/pixels/hacker.png';
+import philosopher from '../assets/images/pixels/philosopher.png';
 
 import '../assets/styles/Pixels.css';
 

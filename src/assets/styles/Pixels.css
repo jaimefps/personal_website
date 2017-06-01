@@ -1,6 +1,6 @@
 .pixels-container {
   display: flex;
-  padding-top: 20px;
+  padding: 40px;
   background: -webkit-linear-gradient(left top, white, grey);
   background: -o-linear-gradient(bottom right, white, grey);
   background: -moz-linear-gradient(bottom right, white, grey);
@@ -13,13 +13,11 @@
   font-family: Roboto;
   font-size: 20px;
   letter-spacing: 2px;
-  border: 2px solid black;
-  padding: 5px 30px;
-}
-.imgs-container {
-  margin-top: 10px;
 }
 .pixel-img {
   height: 150px;
   width: 150px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
