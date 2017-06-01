@@ -14,7 +14,7 @@ class Projects extends Component {
     return (
       <div className="projects-container">
 
-        <div className='title'> Applications and Current Projects</div>
+        <div className='title'> Apps, Projects & Collaborations </div>
         
         <div className='app-row'>
           <a target='_blank' href='http://spinoza.jaimefps.com/'>
