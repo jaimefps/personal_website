@@ -29,16 +29,16 @@ class Projects extends Component {
               <div className='app-desc'> City Rampage </div>
             </div>
           </a>
-          <a target='_blank' href='http://daytrip.crabdance.com/'>
-            <div className='app-container'>
-              <img className="app-img" src={daytrip}/>
-              <div className='app-desc'> Day Trip </div>
-            </div>
-          </a>
           <a target='_blank' href='https://github.com/secretChamber/secretChamber'>
             <div className='app-container'>
               <img className="app-img" src={map}/>
               <div className='app-desc'> Neighborly </div>
+            </div>
+          </a>
+          <a target='_blank' href='http://daytrip.crabdance.com/'>
+            <div className='app-container'>
+              <img className="app-img" src={daytrip}/>
+              <div className='app-desc'> Day Trip </div>
             </div>
           </a>
         </div>
@@ -64,7 +64,7 @@ class Projects extends Component {
           </a>
           <div className='app-container'>
             <img className="app-img" src={soon}/>
-            <div className='app-desc'> comming soon! </div>
+            <div className='app-desc'> coming soon! </div>
           </div>
         </div>
         
