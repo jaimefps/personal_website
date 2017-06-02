@@ -48,20 +48,25 @@
   letter-spacing: 1px;
 }
 .contact_me {
-  color: white;
   margin-top: 10px;
   padding: 2px 5px;
   font-size: 15px;
-  background-color: grey;
   letter-spacing: 1px;
-  border-top: 2px solid white;
-  border-left: 2px solid white;
+  border-top: 2px solid lightblue;
+  border-left: 2px solid lightblue;
   border-bottom: 2px solid black;
   border-right: 2px solid black;
+  background: -webkit-linear-gradient(darkblue, blue);
+  background: -o-linear-gradient(darkblue, blue);
+  background: -moz-linear-gradient(darkblue, blue); 
+  background: linear-gradient(darkblue, blue);
 }
 .contact_me:hover {
   color: white;
-  background-color: black;
+  background: -webkit-linear-gradient(blue, aqua);
+  background: -o-linear-gradient(blue, aqua);
+  background: -moz-linear-gradient(blue, aqua); 
+  background: linear-gradient(blue, aqua);
 }
 .bttns {
   width: 30%;
