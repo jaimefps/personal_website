@@ -50,16 +50,18 @@ class Projects extends Component {
               <div className='app-desc'> react/redux tutorial </div>
             </div>
           </a>
+          <a target='_blank' href='https://github.com/jaimefps/react-router-4-teaching-code'>
+            <div className='app-container'>
+              <img className="app-img" src={github}/>
+              <div className='app-desc'> react router tutorial </div>
+            </div>
+          </a>
           <a target='_blank' href='https://github.com/jaimefps/redux-react-node-mysql-mongo'>
             <div className='app-container'>
               <img className="app-img" src={github}/>
               <div className='app-desc'> fullstack tutorial </div>
             </div>
           </a>
-          <div className='app-container'>
-            <img className="app-img" src={soon}/>
-            <div className='app-desc'> comming soon! </div>
-          </div>
           <div className='app-container'>
             <img className="app-img" src={soon}/>
             <div className='app-desc'> comming soon! </div>
