@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import soon from '../assets/images/projects/soon.jpg';
-import spinoza from '../assets/images/projects/spinoza-smile.png';
+import spinoza from '../assets/images/projects/spinoza.png';
 import github from '../assets/images/projects/github.png';
 import game from '../assets/images/projects/game.png';
 import daytrip from '../assets/images/projects/daytrip.png';
