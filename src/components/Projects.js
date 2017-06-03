@@ -35,7 +35,7 @@ class Projects extends Component {
               <div className='app-desc'> Neighborly </div>
             </div>
           </a>
-          <a target='_blank' href='http://daytrip.crabdance.com/'>
+          <a target='_blank' href='https://github.com/jaimefps/daytrip'>
             <div className='app-container'>
               <img className="app-img" src={daytrip}/>
               <div className='app-desc'> Day Trip </div>
