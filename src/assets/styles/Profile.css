@@ -1,12 +1,21 @@
+.wrap {
+  display: flex;
+  background: -webkit-linear-gradient(left top, white, black);
+  background: -o-linear-gradient(bottom right, white, black);
+  background: -moz-linear-gradient(bottom right, white, black);
+  background: linear-gradient(to bottom right, white, black);
+}
 .profile-container {
-  background: -webkit-linear-gradient(left top, grey, black);
-  background: -o-linear-gradient(bottom right, grey, black);
-  background: -moz-linear-gradient(bottom right, grey, black);
-  background: linear-gradient(to bottom right, grey, black);
+  /*background: -webkit-linear-gradient(left top, white, grey);
+  background: -o-linear-gradient(bottom right, white, grey);
+  background: -moz-linear-gradient(bottom right, white, grey);
+  background: linear-gradient(to bottom right, white, grey);*/
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 20px;
+  padding-right: 100px;
+  width: 50%;
 }
 .profile-info {
   margin: 20px;
@@ -69,7 +78,7 @@
   background: linear-gradient(blue, aqua);
 }
 .bttns {
-  width: 20%;
+  width: 65%;
   display: flex;
   justify-content: space-around;
 }
